@@ -1,0 +1,29 @@
+# dependencies
+/node_modules
+
+# environment variables
+.env
+.env.local
+.env.*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MongoDB Connection
+MONGODB_URI=mongodb+srv://singhsatyaprakash057:singhsatyaprakash057@cluster0.vevi3od.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+# MQTT Configuration
+MQTT_BROKER_URL=mqtt://broker.hivemq.com:1883
+
+# Server Configuration
+PORT=3001 
